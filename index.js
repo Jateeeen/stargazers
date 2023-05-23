@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.render('main');
+    res.render('main.ejs');
 });
 
 app.get('/dchsuejbehhshjdbbshhsbsksihenjehehshbebehshebhehsjenshjsjskaksndnhsiskaknsnsisjjsjsjsksibsnshjsjsbshsusiksnhshsiskjsnbshsiaoaksnsjjsjakkskksnjsjjsoskksknshshsiiskskksjenendhdhuosowjebdhhaokskejdhhsisiakskejwkwopwisjdbbehsiskakdnjdjsiwjejdjdbhaiososoejndhsuaoosjdjdhdhiwoaodhdbjsiaosodjjdndksoaidjdjdjsoosodjdhskaosodidjdjjdjsiosidfhhdjsjsksodidifjjdjsjwksdjjffjjajhdhdhjsksisisjdjdjfjfhdjsosoaodoj', (req, res) => {
